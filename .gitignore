@@ -64,3 +64,7 @@ pgdata/
 # --- IDEs (Optional) ---
 .vscode/
 .idea/
+
+echo "venv/" > .gitignore
+echo ".env" >> .gitignore
+echo "__pycache__/" >> .gitignore
